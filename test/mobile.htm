@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<!-- all rights reserved copyright littleboxes.com 2011 -->	
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+		<title>littleboxes.com (mobile beta!)</title>
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.0a2/jquery.mobile-1.0a2.min.css" />
+		<script src="http://code.jquery.com/jquery-1.4.4.min.js"></script>
+		<script src="http://code.jquery.com/mobile/1.0a2/jquery.mobile-1.0a2.min.js"></script>
+
+	</head>
+	<body>
+
+
+<div data-role="page" data-theme="a">
+	<div data-role="header" data-theme="a">
+		<h1>littleboxes</h1>
+	</div>
+
+	<div data-role="content">
+	<div align=center><img src="http://chart.apis.google.com/chart?cht=qr&chl=http://littleboxes.com&chs=150x150" alt="This is the QR Code for littleboxes.com"></img></div>
+	<ul data-role="listview" data-inset="true" data-dividertheme="a">
+
+		<li data-role="list-divider">welcome!</li>
+		<li><a href="#vision" data-transition="slide">vision</a></li>
+		<li><a href="#faq" data-transition="slide">faq</a></li>
+		<li><a href="#contact" data-transition="slide">contact</a></li>
+		<li><a href="#tweets" data-transition="slide">qr tweets</a></li>
+	</ul>
+	</div>
+</div>
+
+<div data-role="page" data-theme="a" id="vision">
+	<div data-role="header" data-theme="a">
+		<h1>vision</h1>
+	</div>
+
+	<div data-role="content">
+		littleboxes will take urls and other cumbersome interfaces out of your way.  we will turn quick response (qr) codes into social links to your fr iends, business associates and potential customers!<br><div align=center><img src="http://chart.apis.google.com/chart?cht=qr&chl=http://littleboxes.com&chs=200x200" alt="This is the QR 
+Code for littleboxes.com"></img></div>
+	</div>
+	<div data-role="footer" data-position="fixed">
+		&copy; littleboxes.com
+	</div>
+</div>
+
+<div data-role="page" data-theme="a" id="faq">
+	<div data-role="header" data-theme="a">
+		<h1>faq</h1>
+	</div>
+	<div data-role="content">
+			q: why?
+                    <br>a: it must be done.
+                    <br><br>
+                    q: ok, seriously, what is this?
+                    <br>a: quick response (qr) codes are similar to bar codes.  they are simply a different way of encoding text data in an image format easily scanned by a wide ran
+ge of special purpose devices and modern phones equipped with cameras and decoding software.  most platforms have free decoding software available.
+                    <br><br>
+                    q: the decoding software is free!?  what's this site all about then?
+                    <br>a: indeed.  this site is about making qr technology fun, easy and profitable to use!  we will link data embedded in custom qr codes with your friends on various social media sites, your customers, and anything else you can imagine!
+                    <br><br>
+                    q: how do i use these things and why would i want to?
+                    <br>a: simply download a barcode/qr code scanner from your smart phone app market of choice.  there are several good scanners out there.  most of them begin scanning as soon as you fire up the app, so just point your phone at a qr code (like the ones on this site) and you've got it.
+<br><br>we will offer a scanner that links natively to our site soon!
+
+<br><br>sure, you could get a url as a temporary tattoo to wear to your next big party, and maybe a hottie would take the time to write it down and type it in later.  sport a qr code on your melon, and you are golden!
+
+<br><br>for the business types, your customers can simply scan codes you affix to existing menus to do all sorts of things, like check in at your location with various social media sites, read details about the vinyards supplying your fine wines, or get a deal on overstocked items you didn't have time to include in a printed flyer...
+	</div>
+	<div data-role="footer" data-position="fixed">
+		&copy; littleboxes.com
+	</div>
+</div>
+
+<div data-role="page" data-theme="a" id="contact">
+	<div data-role="header" data-theme="a">
+		<h3>contact</h3>
+	</div>
+	<div data-role="content">
+		adam (at sign) littleboxes (dot) com<br>scan this QR code and save some typing:<br><br>
+		<div align=center><img src="http://chart.apis.google.com/chart?cht=qr&chl=adam@littleboxes.com&chs=200x200" alt="This is the QR Code for adam@littleboxes.com">
+		</div>
+	</div>
+	<div data-role="footer" data-position="fixed">
+		&copy; littleboxes.com
+	</div>
+</div>
+
+<div data-role="page" data-theme="a" id="tweets">
+	<div data-role="header" data-theme="a">
+		<h3>qr tweets</h3>
+	</div>
+	<div data-role="content">
+<script src="http://widgets.twimg.com/j/2/widget.js"></script>
+<script>
+new TWTR.Widget({
+  version: 2,
+  type: 'search',
+  search: 'qr code',
+  interval: 6000,
+  title: 'recent tweets',
+  subject: 'for &quot;qr code&quot;',
+  width: 300,
+  height: 300,
+  theme: {
+    shell: {
+      background: '#101e24',
+      color: '#b3adb3'
+    },
+    tweets: {
+      background: '#a8a3a8',
+      color: '#444444',
+      links: '#092357'
+    }
+  },
+  features: {
+    scrollbar: false,
+    loop: true,
+    live: true,
+    hashtags: true,
+    timestamp: true,
+    avatars: true,
+    toptweets: true,
+    behavior: 'default'
+  }
+}).render().start();
+</script>
+	</div>
+	<div data-role="footer" data-position="fixed">
+		&copy; littleboxes.com
+	</div>
+</div>
+</div>
+
+</body>
+</html>

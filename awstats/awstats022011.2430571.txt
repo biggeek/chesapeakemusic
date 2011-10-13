@@ -1,0 +1,517 @@
+AWSTATS DATA FILE 6.7 (build 1.892)
+# If you remove this file, all statistics for date 201102 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1864                
+POS_TIME 2536                
+POS_VISITOR 12416               
+POS_DAY 14573               
+POS_DOMAIN 3256                
+POS_LOGIN 3486                
+POS_ROBOT 3641                
+POS_WORMS 4087                
+POS_EMAILSENDER 4218                
+POS_EMAILRECEIVER 4361                
+POS_SESSION 15130               
+POS_SIDER 15318               
+POS_FILETYPES 4496                
+POS_OS 4653                
+POS_BROWSER 4808                
+POS_SCREENSIZE 5070                
+POS_UNKNOWNREFERER 5144                
+POS_UNKNOWNREFERERBROWSER 5557                
+POS_ORIGIN 5818                
+POS_SEREFERRALS 5955                
+POS_PAGEREFS 6137                
+POS_SEARCHWORDS 6426                
+POS_KEYWORDS 6578                
+POS_MISC 2199                
+POS_ERRORS 6637                
+POS_CLUSTER 3342                
+POS_SIDER_404 6749                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20110301002609 1 0 5655559078946
+FirstTime 20110201194010
+LastTime 20110228222427
+LastUpdate 20110302031208 1 0 0 0 0
+TotalVisits 62                  
+TotalUnique 51                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 52                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 10 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 1 10 141790 8 11 32265
+1 15 39 628680 7 12 5569
+2 20 30 461404 2 3 693
+3 10 14 202887 14 14 14508
+4 6 6 111879 8 8 43314
+5 7 39 332512 8 15 9702
+6 1 1 21632 10 10 45491
+7 6 15 253336 8 9 12788
+8 2 2 34380 107 107 132646
+9 9 9 165077 7 7 69566
+10 8 8 149660 5 5 25
+11 41 135 1230041 24 44 27640
+12 5 5 90247 6 6 25
+13 6 8 193930 10 10 6237
+14 2 15 254018 3 5 12935
+15 9 9 165077 7 7 54716
+16 16 29 476125 12 14 23211
+17 0 0 0 5 5 33076
+18 9 43 566390 51 69 536114
+19 33 98 1187963 26 44 47660
+20 1 14 145016 8 9 25122
+21 0 0 0 13 13 91093
+22 10 19 312510 6 7 32240
+23 8 35 586633 32 35 50976
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 225 583 7711187
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 9
+googlebot 89 398172 20110228122951 28
+java 26 491513 20110211183225 0
+\wbot[\/\-] 26 325 20110226163021 13
+baiduspider 16 0 20110227191558 0
+surveybot 6 64971 20110225214320 3
+msnbot 6 84716 20110223083029 1
+unknown 3 75 20110217191110 3
+msnbot\-media 2 21657 20110227203918 1
+mnogosearch 1 21632 20110202045149 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 6
+css 201 461355 0 0
+png 34 128018 0 0
+html 225 3814926 0 0
+jpg 18 926216 0 0
+js 102 2380543 0 0
+gif 3 129 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 11
+linuxsuse 3
+winlong 60
+winxp 371
+win2000 15
+winnt 33
+linux 1
+linuxfedora 9
+macosx 23
+win95 9
+win2003 42
+Unknown 17
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 16
+msie8.0 176
+netscape4.76 5
+msie6.0 146
+firefox1.0 1
+mozilla 1
+netscape0.91 5
+netscape3.0 1
+msie7.0 138
+opera 10
+firefox2.0.0.16 2
+firefox2.0.0.12 5
+msie5.5 10
+Unknown 10
+firefox3.5.3 9
+safari 61
+firefox3.0.15 3
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 7
+- 20110214234610
+YahooCacheSystem 20110213044239
+Mozilla/3.0 20110215061351
+Mozilla/5.0_(compatible;_ScoutJet;__http://www.scoutjet.com/) 20110217191112
+example/1.0 20110228222427
+BlackBerry9000/4.6.0.167_Profile/MIDP-2.0_Configuration/CLDC-1.1_VendorID/102_ips-agent 20110204162551
+Mozilla/0.91_Beta_(Windows) 20110206033951
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 4
+- 20110214234610
+YahooCacheSystem 20110213044239
+example/1.0 20110228222427
+BlackBerry9000/4.6.0.167_Profile/MIDP-2.0_Configuration/CLDC-1.1_VendorID/102_ips-agent 20110204162551
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 80 118
+From1 0 0
+From2 4 4
+From3 5 5
+From4 136 456
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 4
+google 1 1
+live 1 1
+yahoo 1 1
+msn 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 4
+http://www.bing.com/search 2 2
+http://www.facebook.com/l.php 1 1
+http://g7.in/14B.html 1 1
+http://sz0025.wc.mail.comcast.net/zimbra/mail 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+403 1 563
+206 1 21632
+404 292 202356
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 145
+/scripts/+setting.wrapperid+ 1 -
+/phpmanager/scripts/setup.php 1 -
+/php-myadmin/scripts/setup.php 1 -
+/phpmyadmin2/scripts/setup.php 1 -
+/phpMyAdmin-2.7.0-beta1/scripts/setup.php 1 -
+/phpMyAdmin-2.5.4/scripts/setup.php 1 -
+//scripts/scripts/setup.php 1 -
+/phpMyAdmin-2.5.6-rc1/scripts/setup.php 1 -
+/phpMyAdmin-2.6.4-pl3/scripts/setup.php 1 -
+/php-my-admin/scripts/setup.php 2 -
+/phpmyadmin1/scripts/setup.php 1 -
+/phpMyAdmin-2.5.5-rc2/scripts/setup.php 1 -
+/phpMyAdmin-2.7.0-pl2/scripts/setup.php 1 -
+//PMA/scripts/setup.php 1 -
+/phpMyAdmin-2.8.0.4/scripts/setup.php 1 -
+/phpadmin/scripts/setup.php 1 -
+//phpmyadmin1/scripts/setup.php 2 -
+/phpMyAdmin-2.8.0-rc1/scripts/setup.php 1 -
+/scripts/)this.style.display= 2 -
+//webdb/scripts/setup.php 1 -
+/phpMyAdmin-2.8.1/scripts/setup.php 1 -
+//phpmyadmin.old/scripts/setup.php 1 -
+/phpMyAdmin-2.8.0.2/scripts/setup.php 1 -
+/mysql-admin/scripts/setup.php 1 -
+//phpmyadmin-2/scripts/setup.php 1 -
+/phpMyAdmin/scripts/setup.php 2 -
+/phpMyAdmin-2.5.6-rc2/scripts/setup.php 1 -
+//pma/scripts/setup.php 1 -
+/phpMyAdmin-2.6.2-rc1/scripts/setup.php 2 -
+/phpMyAdmin-2.6.1/scripts/setup.php 1 -
+//phpmyadmin/scripts/setup.php 1 -
+/scripts/' 1 -
+/scripts/'+imgelement[0] 1 -
+//hello/YellowFish.php 1 -
+//phplist/lsts/admin/index.php 1 -
+/mysql/scripts/setup.php 1 -
+/phpMyAdmin-2.8.0.1/scripts/setup.php 1 -
+//phplist/admin/index.php 1 -
+/phpMyAdmin-2.6.0-beta1/scripts/setup.php 1 -
+/databaseadmin/scripts/setup.php 1 -
+/phpMyAdmin-2.7.0-pl1/scripts/setup.php 1 -
+//mysqladmin/scripts/setup.php 1 -
+/scripts/'+src+' 1 -
+/phpMyAdmin-2.6.2-beta1/scripts/setup.php 1 -
+/phpMyAdmin-2.6.1-rc1/scripts/setup.php 1 -
+//list/index.php 1 -
+/phpMyAdmin-2.6.1-pl3/scripts/setup.php 1 -
+//myadmin/scripts/setup.php 1 -
+/websql/scripts/setup.php 2 -
+/phpMyAdmin-2.6.0-rc3/scripts/setup.php 1 -
+/admin/scripts/setup.php 1 -
+/phpMyAdmin-2.6.3-pl1/scripts/setup.php 1 -
+/scripts/) 1 -
+/phpMyAdmin-2.5.6/scripts/setup.php 1 -
+//dbadmin/scripts/setup.php 1 -
+/plugins/editors/tinymce/jscripts/tiny_mce/plugins/tinybrowser/upload.php 1 -
+/phpMyAdmin-2.6.0-alpha/scripts/setup.php 1 -
+/phpMyAdmin-2/scripts/setup.php 1 -
+/phpMyAdmin-2.8.0/scripts/setup.php 1 -
+/phpMyAdmin-2.5.5-pl1/scripts/setup.php 1 -
+//old.phpmyadmin/scripts/setup.php 1 -
+/phpMyAdmin-2.6.0-beta2/scripts/setup.php 1 -
+/web/scripts/setup.php 1 -
+//Admin/scripts/setup.php 1 -
+/phpMyAdmin-2.6.0-pl1/scripts/setup.php 1 -
+/phpMyAdmin-2.5.7/scripts/setup.php 1 -
+//admin/index.php 1 -
+/phpMyAdmin-2.6.0-rc1/scripts/setup.php 1 -
+//mysqlmanager/scripts/setup.php 1 -
+/admin/phpmyadmin/scripts/setup.php 1 -
+/phpMyAdmin-2.6.0-rc2/scripts/setup.php 1 -
+/sqlweb/scripts/setup.php 1 -
+/phpMyAdmin-2.8.0.3/scripts/setup.php 1 -
+/admin/pma/scripts/setup.php 1 -
+/phpMyAdmin-2.8.2/scripts/setup.php 1 -
+/sqlmanager/scripts/setup.php 1 -
+/phpMyAdmin-2.7.0-rc1/scripts/setup.php 1 -
+//sql/scripts/setup.php 1 -
+/phpMyAdmin-2.6.1-pl2/scripts/setup.php 1 -
+/phpMyAdmin-2.6.4-pl1/scripts/setup.php 1 -
+//phpadmin/scripts/setup.php 1 -
+/phpMyAdmin-2.8.1-rc1/scripts/setup.php 1 -
+/phpMyAdmin-2.6.4-pl2/scripts/setup.php 1 -
+/pma2005/scripts/setup.php 1 -
+/webadmin/scripts/setup.php 1 -
+/scripts/setup.php 1 -
+/phpMyAdmin-2.6.0/scripts/setup.php 1 -
+/phpMyAdmin-2.6.2-pl1/scripts/setup.php 1 -
+/PMA2005/scripts/setup.php 1 -
+/phpmy-admin/scripts/setup.php 1 -
+/scripts/print.css 71 http://www.chesapeakemusic.org/staffandboardmembers.html
+/page9.html 1 -
+//admin/scripts/setup.php 1 -
+/phpMyAdmin-2.6.0-alpha2/scripts/setup.php 1 -
+/phpMyAdmin-2.8.0-beta1/scripts/setup.php 1 -
+//phpMyAdmin1/scripts/setup.php 1 -
+/phpMyAdmin-2.7.0/scripts/setup.php 1 -
+/phpMyAdmin-2.6.0-pl3/scripts/setup.php 1 -
+/scripts/'+imgelement[1]+' 1 -
+/myadmin/scripts/setup.php 1 -
+/phpMyAdmin-2.6.2/scripts/setup.php 1 -
+/scripts/+jsc++ 1 -
+/phpMyAdmin-2.8.0-rc2/scripts/setup.php 1 -
+/scripts/none 68 http://www.chesapeakemusic.org/staffandboardmembers.html
+/phpMyAdmin-2.6.4-rc1/scripts/setup.php 1 -
+/phpMyAdmin-2.5.7-pl1/scripts/setup.php 1 -
+//lists/admin/index.php 1 -
+//newsletter/admin/index.php 1 -
+/webdb/scripts/setup.php 1 -
+//news/admin/index.php 1 -
+//websql/scripts/setup.php 1 -
+/mysqladmin/scripts/setup.php 2 -
+/xampp/phpmyadmin/scripts/setup.php 1 -
+//phpmyadmin2/scripts/setup.php 1 -
+/w00tw00t.at.blackhats.romanian.anti-sec:) 1 -
+/phpMyAdmin-2.6.3/scripts/setup.php 2 -
+/dbadmin/scripts/setup.php 1 -
+/phpMyAdmin-2.6.1-pl1/scripts/setup.php 1 -
+/phpMyAdmin-2.5.1/scripts/setup.php 1 -
+/phpmyadmin/scripts/setup.php 2 -
+/scripts/ 1 -
+/typo3/phpmyadmin/scripts/setup.php 1 -
+//db/scripts/setup.php 1 -
+/scripts/)&&!jQuery.nodeName(elem, 1 -
+/web/phpMyAdmin/scripts/setup.php 1 -
+//phplists/admin/index.php 1 -
+/phpMyAdmin-2.5.5/scripts/setup.php 1 -
+/page10.html 1 -
+/phpMyAdmin-2.2.3/scripts/setup.php 1 -
+/p/m/a/scripts/setup.php 1 -
+/phpMyAdmin-2.6.1-rc2/scripts/setup.php 1 -
+/phpMyAdmin-2.6.3-rc1/scripts/setup.php 1 -
+/phpMyAdmin-2.6.4/scripts/setup.php 1 -
+/phpMyAdmin-2.2.6/scripts/setup.php 1 -
+//phpList/admin/index.php 1 -
+/phpMyAdmin-2.5.5-rc1/scripts/setup.php 1 -
+/scripts/)self.html(selector 1 -
+/pma/scripts/setup.php 1 -
+/phpMyAdmin-2.6.0-pl2/scripts/setup.php 1 -
+/db/scripts/setup.php 1 -
+//phpMyAdmin/scripts/setup.php 1 -
+//mysql/scripts/setup.php 1 -
+/scripts/div.gallerycaptionfg 2 -
+/phpMyAdmin-2.6.4-pl4/scripts/setup.php 1 -
+/mysqlmanager/scripts/setup.php 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 52
+38.127.197.104 17 37 304205 20110214115833
+188.165.200.113 15 15 270741 20110214161416
+208.118.175.34 13 47 314040 20110208113417
+174.127.132.64 12 22 329393 20110227025655
+69.58.178.56 10 10 153492 20110204162558
+68.33.76.79 10 56 565908 20110209015448
+95.168.183.239 10 10 180494 20110203012742
+72.229.251.243 10 10 225280 20110204070327
+174.127.132.131 9 15 212253 20110227024824
+205.178.190.235 8 8 129628 20110204224010
+207.46.204.217 1 10 161250 20110219222808
+190.152.223.27 4 4 74830 20110227091243
+208.43.81.144 5 5 90247 20110221044915
+84.196.240.90 1 1 21632 20110215061351
+68.55.96.132 6 23 298435 20110202185426
+65.120.80.8 3 18 257256 20110218112920
+207.46.204.168 1 10 145016 20110219205534
+74.52.245.146 1 1 21632 20110206190514
+162.129.251.22 7 39 332512 20110205052425
+96.4.191.23 1 1 15417 20110220103249
+66.173.196.99 3 41 475047 20110214144134
+188.40.82.73 1 3 103683 20110219131210
+174.127.132.135 4 8 62004 20110227024945
+174.127.132.130 0 2 0 
+213.251.184.70 5 5 90247 20110212021551
+207.46.12.27 1 10 141664 20110220012441
+24.35.89.114 3 20 267955 20110207185435
+174.127.132.132 2 4 43264 20110227023821
+207.191.191.22 1 1 12748 20110220103227
+109.230.213.102 6 6 102995 20110205082838
+50.18.2.139 1 1 21632 20110202143058
+184.15.44.90 1 14 232386 20110226164441
+222.186.17.87 5 5 90247 20110226133457
+207.46.12.68 1 11 152345 20110219190520
+174.127.132.10 2 2 43264 20110226235755
+38.99.98.161 1 1 21632 20110217191112
+174.127.132.136 3 6 90179 20110219195408
+218.203.176.126 4 4 74830 20110210150434
+87.106.135.77 1 1 21632 20110227082753
+109.230.220.28 5 5 90247 20110218092907
+208.115.138.254 4 4 74830 20110220103258
+67.221.39.83 6 20 332660 20110214234611
+204.236.140.126 1 14 232341 20110214234632
+207.46.12.217 1 10 140696 20110208074243
+207.7.80.34 1 1 21632 20110204112816
+207.191.191.21 2 2 46665 20110220103258
+91.121.64.83 5 5 90247 20110206033951
+74.103.59.136 3 18 255153 20110202192633
+207.46.12.158 1 10 141790 20110220001012
+69.147.115.59 1 1 21632 20110213044239
+222.216.28.52 1 1 21632 20110228222427
+74.222.1.124 5 5 90247 20110207112731
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 22
+20110201 5 5 90247 1
+20110202 15 47 665467 4
+20110203 12 37 445548 3
+20110204 29 29 507639 5
+20110205 13 45 435507 3
+20110206 6 6 111879 2
+20110207 8 25 358202 2
+20110208 21 95 735754 3
+20110209 3 18 284890 1
+20110210 4 4 74830 1
+20110212 6 6 111879 2
+20110213 1 1 21632 1
+20110214 30 90 1191839 5
+20110215 1 1 21632 1
+20110217 1 1 21632 1
+20110218 8 23 347503 2
+20110219 19 62 928230 8
+20110220 10 28 433114 6
+20110221 5 5 90247 1
+20110226 7 20 344265 3
+20110227 20 34 467619 6
+20110228 1 1 21632 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 5
+5mn-15mn 5
+30s-2mn 8
+0s-30s 42
+2mn-5mn 6
+30mn-1h 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 17
+/ 35 692224 27 17
+/staffandboardmembers/staff.html 35 539595 1 1
+/staffandboardmembers.html 25 276576 3 2
+/staffandboardmembers/bandboostersboard.html 23 808243 2 18
+/staffandboardmembers/chorusboostersboard.html 17 216716 17 2
+/home.html 12 237952 1 2
+/ensembles.html 11 78995 0 4
+/contactinformation.html 10 101187 1 1
+/newsandevents.html 10 308290 2 3
+/ensembles/concertband.html 9 102375 0 1
+/ensembles/marchingband.html 7 79639 0 2
+/ensembles/jazzband.html 5 56845 1 3
+/calendar/instrumentalmusic.html 1 11734 1 0
+/calendar.html 8 82200 1 4
+/ensembles/orchestra.html 4 45476 2 1
+/photosandvideos.html 9 131355 2 1
+/ensembles/guitarensemble.html 4 45524 1 0
+END_SIDER

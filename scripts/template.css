@@ -1,0 +1,289 @@
+
+/*
+**  Template.css
+**
+**	Default Layout
+**
+*/
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+html, body {
+	height: 100%;
+}
+
+	/*submenu always defaults to display none*/
+		#wb-navigation-subtop div.submenu {
+			display: none;
+			background-color:#cc9933;
+			}
+			#wb-navigation-subtop div.submenu div {
+				float: none;
+				}
+				#wb-navigation-subtop div.submenu a {
+					color: #fff;
+					display: block;
+					text-align: left;
+					padding-top: 5px;
+					padding-bottom: 5px;
+					margin-left: -20px;
+					margin-left: -10px;
+					padding-left: 5px;
+					line-height: 20px;
+					}
+					#wb-navigation-subtop divsubmenu {
+					width:100px;
+					
+					}
+
+	#wb-container-outer {
+		min-width:960px;
+		background-color:#330000;		
+		background-image:url(../images/layout1/piano_song_o.png);
+		background-repeat:repeat-x;
+		background-position:top left;
+		min-height:100%;
+		height:auto !important;
+		height: 100%;
+	} 	
+		* html #wb-#wb-container-outer {
+			background-image:none;
+			filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src=images/layout1/piano_song_o_10x10.png );
+		}
+
+	#wb-container-inner {
+		margin: auto;
+		width:960px;
+		text-align: center;
+		background-color:transparent;
+		padding-bottom: 16px;
+	}
+
+	#wb-layout {
+		width:960px;
+		padding:10px 0px;
+	}
+
+	#wb-layout-inner {
+		width:960px;
+
+	}
+
+/* WB-LAYOUT-HEADER: This is the header section */
+	#wb-layout-header {
+	width:960px;
+		height:232px;
+		background-color:transparent;
+		background-image:url(../images/layout1/piano_song_h.jpg);
+		background-position: top left;
+		background-repeat: no-repeat;
+		overflow: hidden;
+
+	}			
+
+	#wb-layout-header-mask {
+	width:960px;
+		height:232px;
+		text-align:left;		
+		background-color: transparent;
+		background-image: none;
+		background-position: top left;
+		background-repeat: no-repeat;
+		overflow: hidden;
+	}
+			
+
+	#wb-layout-header-base {
+		width:960px;
+		height: 43px;
+		margin-top: 10px;
+		background-color: transparent;
+		background-image:url(../images/layout1/piano_song_hb.png);
+		background-position: top left;
+		background-repeat: no-repeat;
+
+	}
+
+		* html #wb-layout-header-base {
+			background-image:none;
+			filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src=images/layout1/piano_song_hb.png );
+		}
+
+
+
+/* WB-LAYOUT-TOP-2: for designs that have navigation between the header and content
+**	Layout 2
+**  Layout 3
+*/
+
+    #wb-navigation-subtop {
+		display: none;		
+    }
+
+    #wb-navigation-subtop div {
+     	float: left;     	
+		display:block;
+		padding: 0 10px;
+		text-align: left;
+	   }
+
+	   
+    #wb-top-subbasenav {
+    }
+
+/* WB-CONTAINER-CONTENTWRAPPER: This wraps the content area of the site
+**
+**	ALL Layouts
+**
+*/
+	#wb-container-contentwrapper {
+		width:960px;
+		height: 100%;
+		background-color:transparent;
+		background-position: top left;
+		background-repeat: repeat-y;
+
+	}
+
+/* SIDEBAR is for designs that have a left or right column built in
+**
+**	Layout 1
+**	Layout 2
+*/
+	#wb-layout-sidebar {
+        float: left;
+        width: 199px;
+        background-color: transparent;
+		background-image: none;
+		background-position: top right;
+		background-repeat: no-repeat;
+	}
+
+	/* sidebar navigation */
+	#wb-navigation {
+		width:199px;
+		background-color: transparent;
+		background-image: none;
+		background-position: top left;
+		background-repeat: repeat-y;
+	}
+
+	#wb-navigation-top {
+		width: 199px;
+		background-color: transparent;
+		background-image:none;
+		background-position: top left;
+		background-repeat: no-repeat;
+	} 
+	
+	
+
+	#wb-navigation-bottom {
+	/* NO HEIGHT: 100%.  BREAKS FF. */
+		width: 199px;
+		background-color: transparent;
+		background-image: none;
+		background-position: bottom left;
+		background-repeat: no-repeat;
+	}
+
+/* SIDEBAR NAVIGATION STRUCTURE
+**
+**	Layout 1
+**	Layout 2
+**
+*/
+
+	#wb-navigation-bottom div {
+		padding: 4px 8px 0 16px;
+		text-align: left;
+		margin: 10px 4px;
+		width:180px;
+	}
+
+    #wb-navigation-bottom div.submenu {
+        margin: 0px;
+        padding: 0px;		
+    }
+	
+        #wb-navigation-bottom div.submenu div {            
+			padding: 0px 8px;	
+        }
+		
+		#wb-navigation-bottom div.submenu {
+			margin-left: 15px;
+			}
+		* html #wb-navigation-bottom div.submenu {
+			margin-left: 20px;
+			}
+		#wb-navigation-bottom div a h3{
+
+			cursor:hand;
+		}
+	#wb-basenav {
+	}
+
+	#wb-navbasewrap {
+		padding:10px;
+		text-align:left;
+		padding-left:10px;
+	}
+
+
+/* MAIN-CONTENT AREA
+**
+**	ALL Layouts
+**
+*/
+	#wb-layout-main {
+		display:block;
+		width:761px;
+		float: right;
+		text-align:left;
+		background-color: transparent;
+		background-image:none;
+		background-position: top right;
+		background-repeat: no-repeat;
+	} 
+
+	* html 	#wb-layout-main {
+		width:741px;
+	} 
+
+	#wb-layout-main-inner-1 {
+
+    }
+
+	#wb-layout-main-inner-2  {
+
+	}
+
+/* Page FOOTER
+**
+**	ALL Layouts
+**
+*/
+	#wb-layout-footer {
+		min-height: 58px;
+		height:auto !important;
+		height: 58px;
+		width: 960px;
+		border: 0px;
+		margin-left: 0;
+		background-color: transparent;
+		background-image:url(../images/layout1/piano_song_f.jpg);
+		background-position: top left;
+		background-repeat: no-repeat;
+		background-color:transparent;
+	}
+			
+
+/* submenu */
+div.submenu {
+		display: none;
+
+	background-color:#cc9933;
+}

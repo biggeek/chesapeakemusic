@@ -1,0 +1,74 @@
+
+/* WB-LAYOUT-HEADER: This is the header section */
+	
+	#wb-layout-header {
+		width:960px;
+		height:232px;		
+		background-color: transparent;
+		background-image:url(../images/layout3/piano_song_h.jpg);		
+		background-position: top left;
+		background-repeat: no-repeat;		
+		overflow: hidden;
+		
+	} 
+	
+	#wb-layout-header-mask {
+		width:960px;
+		height:232px;		
+		background-color: transparent;
+		background-image: none;		
+		background-position: top left;
+		background-repeat: no-repeat;		
+		overflow: hidden;
+	}
+				
+	#wb-layout-header-base {
+		width:960px;
+		height: 43px;
+		background-color: transparent;
+		background-image:url(../images/layout3/piano_song_hb.png);
+		background-position: top left;
+		background-repeat: no-repeat;
+	} * html #wb-layout-header-base {
+			background-image:none;
+			filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src=images/layout3/piano_song_hb.png);
+		}
+
+	#wb-layout-top {
+		top: 0px;
+	}
+
+	#wb-container-contentwrapper {
+		position: relative;
+		top: 0px;
+	}
+	
+	#wb-layout-footer {
+		position: relative;
+		top: 0px;
+	}
+	
+	#wb-navigation-subtop {
+		display: block;
+		width: 960px;
+		height:16px;
+		overflow:hidden;
+		white-space:nowrap;
+    } 
+
+    
+	#wb-layout-sidebar { 
+        display: none;
+	}
+	
+	/* MAIN-CONTENT Area */
+	#wb-layout-main {
+		width:960px;
+		padding:  0;
+		float: none;
+	}	
+	
+		* html #wb-layout-main {
+			width:960px;
+			}
+	

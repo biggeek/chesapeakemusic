@@ -1,0 +1,15 @@
+	#wb-layout-sidebar {
+        float: right;
+
+	}	
+	
+		#wb-navigation-bottom div.submenu {
+			margin-left: -4px;
+			}
+			* html #wb-navigation-bottom div.submenu {
+				margin-left: -25px;
+				}
+			
+	* html 	#wb-layout-main {
+		width:748px;
+	} 

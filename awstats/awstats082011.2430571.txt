@@ -1,0 +1,332 @@
+AWSTATS DATA FILE 6.7 (build 1.892)
+# If you remove this file, all statistics for date 201108 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1864                
+POS_TIME 2523                
+POS_VISITOR 6834                
+POS_DAY 7988                
+POS_DOMAIN 3196                
+POS_LOGIN 3425                
+POS_ROBOT 3580                
+POS_WORMS 3968                
+POS_EMAILSENDER 4099                
+POS_EMAILRECEIVER 4242                
+POS_SESSION 8402                
+POS_SIDER 8588                
+POS_FILETYPES 4377                
+POS_OS 4529                
+POS_BROWSER 4680                
+POS_SCREENSIZE 4860                
+POS_UNKNOWNREFERER 4934                
+POS_UNKNOWNREFERERBROWSER 5038                
+POS_ORIGIN 5137                
+POS_SEREFERRALS 5272                
+POS_PAGEREFS 5427                
+POS_SEARCHWORDS 5662                
+POS_KEYWORDS 5831                
+POS_MISC 2187                
+POS_ERRORS 5907                
+POS_CLUSTER 3281                
+POS_SIDER_404 6015                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20110901030209 1 0 11448583531524
+FirstTime 0
+LastTime 20110831204816
+LastUpdate 20110902030741 1 0 0 0 0
+TotalVisits 30                  
+TotalUnique 23                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 30                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 6 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 5 5 90247 24 31 294815
+1 0 0 0 3 3 35166
+2 7 7 123122 16 18 65041
+3 0 0 0 7 8 11431
+4 0 0 0 6 7 22806
+5 0 0 0 10 10 30904
+6 15 34 261999 8 9 77391
+7 6 6 111879 7 8 27348
+8 0 0 0 10 12 102545
+9 1 14 232386 6 8 24029
+10 18 40 605617 19 29 35656
+11 6 28 1729107 23 31 268374
+12 1 3 9512 7 7 55705
+13 4 30 459121 10 14 145319
+14 1 3 736750 7 9 130725
+15 0 0 0 3 3 64896
+16 9 37 1312176 3 6 10245
+17 1 3 0 6 9 65614
+18 3 9 743882 4 6 42988
+19 18 20 266858 9 21 165150
+20 1 1 21632 5 5 74118
+21 0 0 0 4 4 37074
+22 0 0 0 7 12 56762
+23 0 0 0 2 3 46246
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 96 240 6704288
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 7
+baiduspider 136 1513922 20110831233201 0
+googlebot 61 268433 20110830204107 19
+\wbot[\/\-] 20 10525 20110823085000 10
+surveybot 4 43314 20110825023312 2
+unknown 1 25 20110802103054 1
+archive\.org_bot 1 25 20110815172339 1
+netcraft 1 21632 20110824185839 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 6
+css 65 170092 0 0
+png 14 68957 0 0
+html 96 1447791 0 0
+jpg 19 4127515 0 0
+js 45 889890 0 0
+gif 1 43 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 11
+winxp 73
+unix 22
+winnt 24
+linuxubuntu 43
+linux 14
+linuxfedora 10
+winme 6
+macosx 3
+win95 6
+win2003 37
+Unknown 2
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 11
+msie6.0 20
+msie8.0 67
+firefox1.0 1
+msie7.0 37
+opera 5
+msie2.0 11
+firefox2.0.0.16 1
+msie5.0 5
+firefox3.5.3 10
+Unknown 2
+safari 81
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 1
+- 20110826023448
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+- 20110826023448
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 58 81
+From1 0 0
+From2 1 1
+From3 1 1
+From4 36 157
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+google 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 1
+http://pasadena.patch.com/articles/a-not-so-silent-night-at-chesapeake-high-school 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 1
+443%2f474-0277 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 1
+443%2f474-0277 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+403 1 563
+404 45 31185
+301 3 724
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 8
+/images/photoalbum/photo_controlBG.jpg 1 http://chesapeakemusic.org/scripts/icwebsiteelement.css
+/wordpress/wp-includes/images/blank.gif 1 -
+//wp-includes/images/blank.gif 1 -
+/scripts/none 18 http://chesapeakemusic.org/staffandboardmembers/staff.html
+/scripts/print.css 20 http://chesapeakemusic.org/staffandboardmembers/staff.html
+/wp/wp-includes/images/blank.gif 1 -
+/test/littleboxeslogodark.png 2 http://www.chesapeakemusic.org/test/
+/test/Marching_Band_example.jpg 1 http://www.chesapeakemusic.org/test/
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 30
+68.55.96.132 15 64 4178912 20110827183604
+38.100.21.25 15 34 261999 20110810064323
+69.58.178.59 10 10 153492 20110802103107
+195.2.192.252 6 6 110655 20110806163212
+82.98.137.24 5 5 90247 20110814193053
+74.103.64.216 5 23 299371 20110805102613
+208.43.81.144 5 5 90247 20110804004102
+109.230.251.203 5 5 90247 20110825020452
+46.246.125.76 5 5 90247 20110824192353
+178.73.223.117 5 5 90247 20110821075652
+209.85.224.98 0 2 8275 
+75.197.97.23 2 4 9512 20110830130542
+209.85.224.86 1 1 11243 20110805130329
+209.85.224.97 0 1 7473 
+205.178.190.234 2 2 11243 20110803193521
+209.85.224.95 0 2 9851 
+65.120.80.8 1 14 232386 20110819094050
+74.52.245.146 1 1 21632 20110821075409
+150.70.75.31 1 1 21632 20110805103118
+150.70.64.198 1 5 131084 20110805102627
+209.85.224.82 0 2 88146 
+209.85.224.85 0 3 91496 
+205.178.190.236 2 2 11285 20110803193525
+63.80.99.130 2 16 237416 20110805130400
+96.244.0.86 1 14 232386 20110827163600
+209.85.224.96 0 1 5221 
+182.64.72.26 2 2 32875 20110826023448
+205.178.190.237 3 3 63836 20110803193522
+188.138.121.24 1 1 21632 20110831204816
+209.85.224.88 0 1 0 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 16
+20110802 10 10 153492 1
+20110803 7 7 86364 3
+20110804 5 5 90247 1
+20110805 10 58 911208 5
+20110806 6 6 110655 1
+20110810 15 34 261999 1
+20110814 5 5 90247 1
+20110818 1 14 232386 1
+20110819 1 14 232386 1
+20110821 6 6 111879 2
+20110824 5 5 90247 1
+20110825 5 5 90247 1
+20110826 14 46 2505903 6
+20110827 3 20 1705884 3
+20110830 2 4 9512 1
+20110831 1 1 21632 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 5
+1h+ 1
+5mn-15mn 1
+15mn-30mn 1
+0s-30s 25
+30s-2mn 2
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 17
+/test/ 15 73193 8 8
+/staffandboardmembers/staff.html 14 215838 0 2
+/ 13 281216 12 7
+/staffandboardmembers.html 8 92192 0 1
+/contactinformation.html 8 78701 3 4
+/staffandboardmembers/bandboostersboard.html 7 245987 0 5
+/staffandboardmembers/chorusboostersboard.html 5 63740 5 0
+/ensembles.html 4 33855 1 1
+/newsandevents.html 4 123316 0 0
+/ensembles/concertband.html 3 34125 0 1
+/ensembles/marchingband.html 2 22754 0 0
+/ensembles/jazzband.html 2 22738 0 0
+/home.html 3 64896 1 0
+/calendar.html 2 20550 0 0
+/ensembles/orchestra.html 2 22738 0 1
+/photosandvideos.html 2 29190 0 0
+/ensembles/guitarensemble.html 2 22762 0 0
+END_SIDER

@@ -1,0 +1,348 @@
+AWSTATS DATA FILE 6.7 (build 1.892)
+# If you remove this file, all statistics for date 201009 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1864                
+POS_TIME 2534                
+POS_VISITOR 6507                
+POS_DAY 8500                
+POS_DOMAIN 3243                
+POS_LOGIN 3475                
+POS_ROBOT 3630                
+POS_WORMS 3936                
+POS_EMAILSENDER 4067                
+POS_EMAILRECEIVER 4210                
+POS_SESSION 8915                
+POS_SIDER 9116                
+POS_FILETYPES 4345                
+POS_OS 4506                
+POS_BROWSER 4618                
+POS_SCREENSIZE 4851                
+POS_UNKNOWNREFERER 4925                
+POS_UNKNOWNREFERERBROWSER 5111                
+POS_ORIGIN 5193                
+POS_SEREFERRALS 5329                
+POS_PAGEREFS 5484                
+POS_SEARCHWORDS 5632                
+POS_KEYWORDS 5806                
+POS_MISC 2197                
+POS_ERRORS 5887                
+POS_CLUSTER 3331                
+POS_SIDER_404 5988                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20101001010127 1 0 30081044344
+FirstTime 20100910001925
+LastTime 20100930191655
+LastUpdate 20101002120545 1 0 0 0 0
+TotalVisits 49                  
+TotalUnique 36                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 54                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 16 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 15 70 675829 41 58 266861
+1 2 16 272245 13 14 57039
+2 3 31 531504 5 8 38291
+3 0 0 0 3 3 25
+4 0 0 0 8 9 100
+5 0 0 0 3 6 12256
+6 1 13 221727 29 30 282938
+7 0 0 0 8 8 13479
+8 18 101 810353 13 23 13885
+9 7 27 351800 13 28 46771
+10 6 26 52573 11 17 8366
+11 0 0 0 10 10 41986
+12 47 334 2300158 53 104 86321
+13 13 79 864635 16 34 50252
+14 5 49 800930 9 14 32142
+15 3 19 287511 7 14 6930
+16 7 67 518518 17 26 28852
+17 9 32 369803 14 26 29618
+18 0 0 0 4 20 274391
+19 3 19 283580 8 16 10395
+20 12 12 87557 2 2 25
+21 27 111 1340145 15 25 14881
+22 11 49 640471 21 36 20815
+23 0 0 0 6 9 14741
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 189 1055 10409339
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 5
+googlebot 136 565463 20100930062230 29
+msnbot 20 243299 20100910063544 1
+motor 18 273005 20100926151728 0
+baiduspider 12 25997 20100930005245 1
+unknown 2 50 20100929201851 2
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 6
+css 424 724640 0 0
+png 147 1461646 0 0
+html 189 2157536 0 0
+jpg 59 2343762 0 0
+js 224 3721368 0 0
+gif 12 387 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 7
+macosx 52
+winlong 191
+winxp 510
+win2003 136
+winnt 152
+Unknown 13
+linux 1
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 13
+msie8.0 484
+msie6.0 18
+firefox3.5.13 17
+firefox3.5.6 16
+firefox1.0 1
+mozilla 13
+msie7.0 362
+firefox2.0.0.16 3
+firefox3.6.10 17
+msie5.5 1
+firefox2.0.0.12 1
+safari 92
+firefox3.5.10 30
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 1
+Mozilla/4.0_(compatible;_http://search.thunderstone.com/texis/websearch/about.html) 20100916080657
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 59 75
+From1 0 0
+From2 3 3
+From3 0 0
+From4 127 977
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+google 3 3
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 1
+chesapeakemusic.org 3
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 1
+chesapeakemusic.org 3
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 2
+403 3 1689
+404 349 241857
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 5
+/scripts/none 171 http://chesapeakemusic.org/
+/scripts/print.css 175 http://031b050.netsolhost.com/
+/kfbmmikrfi.html 1 -
+/rtxfsrlqyqmixioq.html 1 -
+/dvdrental.com 1 http://www.dvdrental.com/chesapeakemusic.org
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 54
+65.120.80.8 24 114 1250948 20100924121218
+38.100.41.67 19 43 265112 20100911210356
+68.55.85.73 17 101 1157611 20100926154237
+66.173.196.99 15 204 652857 20100929123224
+70.88.147.21 15 70 675829 20100910005130
+24.35.89.114 14 56 377511 20100930191655
+173.166.139.157 13 40 417021 20100917122221
+96.244.126.207 10 34 381212 20100919221923
+206.183.1.74 9 13 218741 20100916080657
+68.55.96.132 7 52 593600 20100926175235
+205.188.116.73 1 1 12231 20100917172021
+162.129.251.42 5 67 297034 20100911082946
+205.188.117.5 0 1 292 
+173.64.77.9 3 30 492251 20100923063731
+205.188.117.6 0 1 0 
+205.188.116.16 0 2 5221 
+205.188.116.131 0 1 35519 
+205.188.116.204 1 1 16987 20100917171959
+205.188.116.132 1 1 12986 20100917171922
+205.178.190.233 2 2 13235 20100929203413
+205.188.117.74 1 1 16303 20100917171941
+205.188.116.17 0 2 6914 
+173.8.16.238 3 19 282412 20100910142916
+205.188.117.13 0 1 294 
+205.188.116.209 0 2 0 
+74.52.245.146 1 1 12986 20100928025103
+205.188.116.206 0 1 0 
+205.188.116.11 0 1 70190 
+131.118.69.104 2 17 272713 20100917120512
+69.162.146.198 1 1 12986 20100930013527
+205.188.117.77 0 1 17956 
+205.188.116.139 1 1 13235 20100917172027
+205.188.117.16 0 1 55774 
+88.198.65.236 1 15 259259 20100928025820
+205.188.116.10 1 1 12201 20100917171936
+205.188.116.66 0 1 2937 
+205.188.116.78 0 1 9445 
+205.188.117.7 0 1 26277 
+205.178.190.234 4 4 37237 20100929203503
+71.127.159.102 1 15 259259 20100922220800
+205.188.116.72 0 1 8275 
+205.178.190.244 1 15 259259 20100910015935
+96.244.13.246 2 17 271147 20100921190521
+205.178.190.242 2 30 518518 20100910160217
+220.181.27.24 1 1 12986 20100925121736
+205.178.190.245 1 15 259259 20100910144132
+205.178.190.243 2 30 518518 20100910144131
+205.188.116.19 0 1 0 
+205.178.190.236 2 2 11888 20100929203503
+205.188.116.13 0 1 43 
+205.188.116.18 1 1 12986 20100917172031
+98.117.57.161 1 15 259214 20100929080258
+205.178.190.237 4 4 25197 20100929203442
+205.188.116.7 0 1 7473 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 15
+20100910 27 198 2796207 8
+20100911 24 110 562146 2
+20100916 11 31 494597 2
+20100917 45 198 2003466 11
+20100919 10 34 381212 1
+20100921 16 186 887070 3
+20100922 3 32 529783 2
+20100923 1 13 221727 1
+20100924 7 27 333328 1
+20100925 4 33 558236 2
+20100926 14 53 687661 4
+20100927 1 16 13278 1
+20100928 2 16 272245 2
+20100929 22 105 642964 7
+20100930 2 3 25419 2
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 6
+5mn-15mn 2
+15mn-30mn 4
+30s-2mn 11
+2mn-5mn 1
+0s-30s 30
+30mn-1h 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 19
+/ 41 506454 34 14
+/calendar.html 24 213984 2 2
+/calendar/instrumentalmusic.html 18 180240 1 9
+/home.html 15 168818 3 5
+/newsandevents.html 15 146147 4 3
+/photosandvideos.html 14 161448 0 2
+/staffandboardmembers/bandboostersboard.html 10 152038 1 3
+/staffandboardmembers.html 9 111897 1 2
+/staffandboardmembers/staff.html 8 114121 1 2
+/calendar/vocalmusic.html 6 61055 0 2
+/ensembles/chorus.html 3 36603 1 1
+/ensembles/guitarensemble.html 3 36657 0 0
+/ensembles/concertband.html 2 24426 0 0
+/ensembles/marchingband.html 6 61075 0 1
+/ensembles/jazzband.html 2 24414 0 1
+/ensembles.html 6 72594 0 0
+/ensembles/orchestra.html 1 12207 0 0
+/staffandboardmembers/chorusboostersboard.html 4 48924 1 2
+/ensembles/vocalensemble.html 2 24434 0 0
+END_SIDER

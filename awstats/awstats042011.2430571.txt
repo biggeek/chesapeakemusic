@@ -1,0 +1,446 @@
+AWSTATS DATA FILE 6.7 (build 1.892)
+# If you remove this file, all statistics for date 201104 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1864                
+POS_TIME 2523                
+POS_VISITOR 11737               
+POS_DAY 12889               
+POS_DOMAIN 3210                
+POS_LOGIN 3440                
+POS_ROBOT 3595                
+POS_WORMS 3991                
+POS_EMAILSENDER 4122                
+POS_EMAILRECEIVER 4265                
+POS_SESSION 13322               
+POS_SIDER 13491               
+POS_FILETYPES 4400                
+POS_OS 4550                
+POS_BROWSER 4690                
+POS_SCREENSIZE 4922                
+POS_UNKNOWNREFERER 4996                
+POS_UNKNOWNREFERERBROWSER 5273                
+POS_ORIGIN 5502                
+POS_SEREFERRALS 5637                
+POS_PAGEREFS 5781                
+POS_SEARCHWORDS 6039                
+POS_KEYWORDS 6191                
+POS_MISC 2187                
+POS_ERRORS 6250                
+POS_CLUSTER 3296                
+POS_SIDER_404 6351                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20110501122418 1 0 22002701848685
+FirstTime 0
+LastTime 20110430213331
+LastUpdate 20110502031040 1 0 0 0 0
+TotalVisits 33                  
+TotalUnique 27                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 27                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 6 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 1 1 21632 1 1 11377
+1 5 5 90247 3 4 21949
+2 5 5 90247 1 1 11369
+3 16 16 262076 10 11 39742
+4 1 1 21632 11 13 21143
+5 1 1 21632 104 105 90982
+6 6 6 101771 3 4 25
+7 5 5 90247 1 1 11524
+8 7 7 133511 25 30 391274
+9 4 4 64896 5 5 44705
+10 5 5 90247 2 2 25
+11 10 10 107996 9 9 67487
+12 5 5 90247 7 13 64600
+13 5 5 90247 3 5 33026
+14 11 24 385878 7 8 66332
+15 5 5 90247 8 9 48560
+16 2 18 251901 3 6 4158
+17 0 0 0 4 4 43289
+18 0 0 0 7 7 58877
+19 0 0 0 6 7 44572
+20 7 25 363181 30 42 334324
+21 8 27 364074 10 16 50413
+22 0 0 0 16 16 32344
+23 17 37 303103 10 12 24675
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 126 212 3035012
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 7
+baiduspider 59 869547 20110430143317 1
+googlebot 53 140866 20110429090451 21
+\wbot[\/\-] 30 375 20110430062548 15
+java 19 349896 20110409081834 0
+surveybot 4 43314 20110423111942 2
+unknown 2 50 20110417093615 2
+ia_archiver\-web\.archive\.org 1 25 20110429200214 1
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 6
+css 56 106893 0 0
+png 8 39404 0 0
+html 126 2170061 0 0
+jpg 4 280760 0 0
+js 16 437808 0 0
+gif 2 86 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 10
+winxp 28
+winlong 80
+winnt 22
+win2000 5
+linux 1
+linuxfedora 7
+winme 2
+win95 10
+win2003 45
+Unknown 12
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 14
+msie6.0 27
+firefox1.0 1
+netscape0.91 5
+msie7.0 42
+opera 10
+firefox3.6.3 15
+firefox3.6.16 1
+msie9.0 37
+firefox3.5.2 1
+msie5.5 12
+firefox2.0.0.12 5
+Unknown 7
+firefox3.5.3 7
+safari 42
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 4
+- 20110409213202
+example/1.0 20110426060033
+BlackBerry9000/4.6.0.167_Profile/MIDP-2.0_Configuration/CLDC-1.1_VendorID/102_ips-agent 20110405143744
+Mozilla/0.91_Beta_(Windows) 20110429060840
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 3
+- 20110409213202
+example/1.0 20110426060033
+BlackBerry9000/4.6.0.167_Profile/MIDP-2.0_Configuration/CLDC-1.1_VendorID/102_ips-agent 20110405143744
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 37 55
+From1 0 0
+From2 0 0
+From3 3 3
+From4 86 154
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 3
+http://g7.in/399A.html 1 1
+http://www.sitedossier.com/site/chesapeakemusic.org 1 1
+http://g7.in/1015.html 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 2
+403 2 1126
+404 161 111573
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 121
+//phpMyAdmin-2.8.0-beta1/scripts/setup.php 1 -
+//scripts/setup.php 1 -
+/l51t5shua7o6aubi7pc0ham6so%40group.calendar.google.com&amp 1 http://chesapeakemusic.org/calendar.html
+//php-myadmin/scripts/setup.php 1 -
+//phpMyAdmin-2.8.1-rc1/scripts/setup.php 1 -
+//phpMyAdmin-2.6.4-pl1/scripts/setup.php 1 -
+//sqlweb/scripts/setup.php 1 -
+/8cdejgfhjqqktoqb6hvri6tjgc%40group.calendar.google.com&amp 1 http://chesapeakemusic.org/calendar.html
+//phpMyAdmin-2.8.0.2/scripts/setup.php 1 -
+//elists/admin/index.php 1 -
+/ht3jlfaac5lfd6263ulfh4tql8%40group.calendar.google.com&amp 1 http://chesapeakemusic.org/calendar.html
+//phpMyAdmin-2.6.0-beta2/scripts/setup.php 1 -
+//phpMyAdmin-2/scripts/setup.php 1 -
+//phpMyAdmin-2.5.5-rc1/scripts/setup.php 1 -
+//phpMyAdmin-2.8.1/scripts/setup.php 1 -
+//php-my-admin/scripts/setup.php 2 -
+//phpadmin/scripts/setup.php 1 -
+//phpMyAdmin-2.6.1/scripts/setup.php 1 -
+//phpMyAdmin-2.6.2-beta1/scripts/setup.php 1 -
+//phpMyAdmin-2.2.6/scripts/setup.php 1 -
+//phpMyAdmin-2.6.0-pl1/scripts/setup.php 1 -
+//phpMyAdmin-2.7.0-pl2/scripts/setup.php 1 -
+//phpMyAdmin-2.8.0-rc1/scripts/setup.php 1 -
+//phpMyAdmin-2.6.2-pl1/scripts/setup.php 1 -
+//phpMyAdmin-2.7.0-beta1/scripts/setup.php 1 -
+//phpMyAdmin-2.6.4-pl2/scripts/setup.php 1 -
+//phpMyAdmin-2.6.0-beta1/scripts/setup.php 1 -
+//phpmanager/scripts/setup.php 1 -
+//phpMyAdmin-2.6.1-rc2/scripts/setup.php 1 -
+//phpMyAdmin-2.7.0-pl1/scripts/setup.php 1 -
+//PMA2005/scripts/setup.php 1 -
+//phpMyAdmin-2.6.0-alpha2/scripts/setup.php 1 -
+//phpMyAdmin-2.8.0.1/scripts/setup.php 1 -
+//web/phpMyAdmin/scripts/setup.php 1 -
+//phpMyAdmin-2.5.7-pl1/scripts/setup.php 1 -
+//phpMyAdmin-2.2.3/scripts/setup.php 1 -
+/page9.html 1 -
+/scripts/print.css 18 -
+//admin/scripts/setup.php 1 -
+//phpmyadmin1/scripts/setup.php 1 -
+//webdb/scripts/setup.php 1 -
+//phpMyAdmin-2.8.0/scripts/setup.php 1 -
+/scripts/'+imgelement[1]+' 1 -
+//mysql-admin/scripts/setup.php 1 -
+//phpmy-admin/scripts/setup.php 1 -
+//p/m/a/scripts/setup.php 1 -
+//phpMyAdmin-2.7.0-rc1/scripts/setup.php 1 -
+//web/scripts/setup.php 1 -
+/scripts/none 15 http://chesapeakemusic.org/newsandevents.html
+//phpMyAdmin-2.6.3-rc1/scripts/setup.php 1 -
+//pma/scripts/setup.php 1 -
+//lists/admin/index.php 1 -
+//sqlmanager/scripts/setup.php 1 -
+//newsletter/admin/index.php 1 -
+//phpMyAdmin-2.6.4-rc1/scripts/setup.php 1 -
+//news/admin/index.php 1 -
+//phpmyadmin/scripts/setup.php 2 -
+//phpMyAdmin-2.8.2/scripts/setup.php 1 -
+//websql/scripts/setup.php 2 -
+//mailinglist/admin/index.php 1 -
+//phpMyAdmin-2.8.0.4/scripts/setup.php 1 -
+//phpmyadmin2/scripts/setup.php 1 -
+/tvjc0r82dtpi8196q2g5k5oid0%40group.calendar.google.com&amp 1 http://chesapeakemusic.org/calendar.html
+//phpMyAdmin-2.5.7/scripts/setup.php 1 -
+/scripts/' 1 -
+/scripts/'+imgelement[0] 1 -
+//phpMyAdmin-2.5.5-pl1/scripts/setup.php 1 -
+//phpMyAdmin-2.7.0/scripts/setup.php 1 -
+//phplist/lsts/admin/index.php 1 -
+//webadmin/scripts/setup.php 1 -
+//phplist/admin/index.php 1 -
+//phpMyAdmin-2.5.5-rc2/scripts/setup.php 1 -
+/scripts/}).html(interfaceHTML).end() 1 -
+//phpMyAdmin-2.6.1-pl1/scripts/setup.php 1 -
+//phpMyAdmin-2.5.1/scripts/setup.php 1 -
+//phpMyAdmin-2.5.5/scripts/setup.php 1 -
+//xampp/phpmyadmin/scripts/setup.php 1 -
+//phpMyAdmin-2.6.2-rc1/scripts/setup.php 2 -
+//mysqladmin/scripts/setup.php 2 -
+//lista/admin/index.php 1 -
+/scripts/'+src+' 1 -
+//phpMyAdmin-2.5.4/scripts/setup.php 1 -
+//phpMyAdmin-2.8.0-rc2/scripts/setup.php 1 -
+//list/index.php 1 -
+//phpMyAdmin-2.6.0-rc3/scripts/setup.php 1 -
+//phpMyAdmin-2.6.0-pl3/scripts/setup.php 1 -
+//phpMyAdmin-2.6.1-rc1/scripts/setup.php 1 -
+//admin/pma/scripts/setup.php 1 -
+//db/scripts/setup.php 1 -
+//myadmin/scripts/setup.php 1 -
+//phpMyAdmin-2.6.0/scripts/setup.php 1 -
+//phpMyAdmin-2.6.3-pl1/scripts/setup.php 1 -
+//pma2005/scripts/setup.php 1 -
+/plugins/editors/tinymce/jscripts/tiny_mce/plugins/tinybrowser/tinybrowser.php 3 http://chesapeakemusic.org/plugins/editors/tinymce/jscripts/tiny_mce/plugins/tinybrowser/tinybrowser.php
+//phpMyAdmin-2.5.6-rc2/scripts/setup.php 1 -
+//phpMyAdmin-2.6.4-pl3/scripts/setup.php 1 -
+//phplists/admin/index.php 1 -
+//phpMyAdmin-2.5.6-rc1/scripts/setup.php 1 -
+/page10.html 1 -
+//dbadmin/scripts/setup.php 1 -
+//phpMyAdmin-2.6.3/scripts/setup.php 2 -
+/en.usa%23holiday%40group.v.calendar.google.com&amp 1 http://chesapeakemusic.org/calendar.html
+//phpMyAdmin-2.6.0-pl2/scripts/setup.php 1 -
+//phpMyAdmin-2.8.0.3/scripts/setup.php 1 -
+//phpMyAdmin-2.6.0-rc1/scripts/setup.php 1 -
+//phpList/admin/index.php 1 -
+//admin/phpmyadmin/scripts/setup.php 1 -
+//phpMyAdmin-2.5.6/scripts/setup.php 1 -
+//phpMyAdmin-2.6.0-rc2/scripts/setup.php 1 -
+/scripts/)self.html(selector 1 -
+//phpMyAdmin-2.6.1-pl2/scripts/setup.php 1 -
+//typo3/phpmyadmin/scripts/setup.php 1 -
+//phpMyAdmin-2.6.1-pl3/scripts/setup.php 1 -
+//phpMyAdmin-2.6.4-pl4/scripts/setup.php 1 -
+//phpMyAdmin-2.6.4/scripts/setup.php 1 -
+//phpMyAdmin-2.6.2/scripts/setup.php 1 -
+//phpMyAdmin-2.6.0-alpha/scripts/setup.php 1 -
+//mysql/scripts/setup.php 1 -
+//phpMyAdmin/scripts/setup.php 2 -
+//admin/index.php 1 -
+//mysqlmanager/scripts/setup.php 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 27
+208.43.81.144 25 25 451235 20110429060840
+38.127.197.103 17 37 303103 20110417232514
+173.255.203.197 15 15 240444 20110422031137
+69.58.178.59 10 10 153492 20110405143744
+24.35.89.114 7 42 551079 20110428210927
+173.193.242.212 5 5 90247 20110404084837
+68.55.85.73 5 23 319917 20110420201629
+222.186.17.87 5 5 90247 20110405025339
+109.230.220.53 5 5 90247 20110418121252
+86.111.78.164 5 5 90247 20110421011045
+205.178.190.235 4 4 32875 20110417112309
+69.71.222.186 1 1 21632 20110405114413
+108.15.74.92 1 14 232386 20110429143737
+222.216.28.172 1 1 21632 20110417033947
+208.98.45.88 1 1 21632 20110429200217
+174.127.132.10 1 1 21632 20110430055132
+110.137.84.4 1 1 21632 20110430005931
+72.94.249.37 1 1 21632 20110409040406
+87.106.135.77 1 1 21632 20110430213331
+205.178.190.234 4 4 54549 20110417112317
+70.59.126.196 2 2 43264 20110409213202
+74.52.245.146 1 1 21632 20110410094546
+222.216.28.145 1 1 11524 20110426060033
+87.106.3.73 1 1 21632 20110417082106
+205.178.190.237 4 4 42204 20110417112313
+195.54.163.122 1 1 21632 20110411205325
+109.230.217.147 1 1 21632 20110421081739
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 17
+20110404 5 5 90247 1
+20110405 21 21 355618 4
+20110409 3 3 64896 2
+20110410 1 1 21632 1
+20110411 6 6 111879 2
+20110416 5 5 90247 1
+20110417 31 51 475995 7
+20110418 5 5 90247 1
+20110419 2 18 251901 1
+20110420 5 23 319917 1
+20110421 6 6 111879 2
+20110422 15 15 240444 1
+20110423 5 5 90247 1
+20110426 1 1 11524 1
+20110428 5 24 299178 1
+20110429 7 20 344265 3
+20110430 3 3 64896 3
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 3
+15mn-30mn 1
+0s-30s 28
+30s-2mn 4
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 17
+/ 21 432640 18 14
+/staffandboardmembers/staff.html 21 323757 0 0
+/staffandboardmembers/bandboostersboard.html 13 456833 0 10
+/staffandboardmembers.html 12 138288 1 2
+/staffandboardmembers/chorusboostersboard.html 9 114732 9 0
+/newsandevents.html 8 215803 1 2
+/contactinformation.html 7 67458 1 2
+/ensembles/concertband.html 5 45500 0 0
+/home.html 5 86528 0 0
+/calendar.html 5 51375 1 1
+/ensembles/marchingband.html 3 34131 0 0
+/ensembles/jazzband.html 3 34107 0 0
+/ensembles.html 4 45140 1 1
+/calendar/instrumentalmusic.html 1 11734 1 0
+/ensembles/orchestra.html 3 34107 0 1
+/photosandvideos.html 3 43785 0 0
+/ensembles/guitarensemble.html 3 34143 0 0
+END_SIDER

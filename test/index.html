@@ -1,0 +1,300 @@
+<html>
+<head>
+<link rel="shortcut icon" href="favicon.ico" />
+<style>
+
+IMG.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* ******************************************************************** */ 
+/* Clearfix: http://csscreator.com/attributes/containedfloat.php        */
+/* ******************************************************************** */
+.clearfix:after {
+ content: "."; 
+ display: block; 
+height: 0; 
+ clear: both; 
+ visibility: hidden;
+ }
+ 
+.clearfix{display: inline-block;}
+
+/* Hides from IE-mac \*/
+* html .clearfix{height: 1%;}
+.clearfix{display: block;}
+/* End hide from IE-mac */  
+
+
+body {
+	padding: 0px;
+	margin: 0 auto;
+	background: #000000 url(images/musical-instruments.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover; /*cross browser kludge*/
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+  	width: 100%;
+	display: table;
+}
+
+#bigbox {
+	margin: 0 auto;
+	width: 1150px ;
+	height: 900px;
+}
+
+#boxright {
+	font: 100% "Trebuchet MS", sans-serif;
+	width: 210px;
+	height: 500px;
+	margin: 20px auto 0;
+	background: #000;
+	border: solid 1px #ccc;
+	padding: 20px;
+    filter:alpha(opacity=90);
+    -moz-opacity:0.9;
+    -khtml-opacity: 0.9;
+	opacity: .9;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px; /* future proofing */
+	-khtml-border-radius: 10px; /* for old Konqueror browsers */
+    position: relative;
+	float: right;
+}
+
+#twocols {
+ width:870px; 
+ float:right; 
+ position:relative;
+}
+
+#centerbox {
+	font: 100% "Trebuchet MS", sans-serif; color: black;
+	width: 550px;
+	height: 500px;
+	margin: 20px auto 0;
+	background: #fff;
+	border: solid 1px #ccc;
+	padding: 20px;
+        filter:alpha(opacity=50);
+        -moz-opacity:0.5;
+        -khtml-opacity: 0.5;
+	opacity: .8;
+/*
+        filter:alpha(opacity=0);
+        -moz-opacity:0.0;
+        -khtml-opacity: 0.0;
+	opacity: .0;
+*/
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px; /* future proofing */
+	-khtml-border-radius: 10px; /* for old Konqueror browsers */
+    float: left;
+    position: relative;
+}
+
+#boxleft {
+	font: 80% "Trebuchet MS", sans-serif; color: black; 
+
+	a:link {color: grey;}; 
+	a:visited {color: yellow;}; 
+	a:hover {color: green;}; 
+	a:active {color: yellow;};
+
+	width: 210px;
+	height: 500px;
+	margin: 20px auto 0;
+	background: #fff;
+	border: solid 1px #ccc;
+	padding: 20px;
+        filter:alpha(opacity=90);
+        -moz-opacity:0.9;
+        -khtml-opacity: 0.9;
+	opacity: .9;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px; /* future proofing */
+	-khtml-border-radius: 10px; /* for old Konqueror browsers */
+	float: left;
+    position: relative;
+}
+#boxhead {
+	font: 80% "Arial", sans-serif; color: black; 
+
+	a:link {color: black;}; 
+	a:visited {color: yellow;}; 
+	a:hover {color: black;}; 
+	a:active {color: yellow;};
+
+	width: 100%;
+	height: 45px;
+	margin: 0px auto 0;
+	background: #ccc;
+	padding: 10px;
+}
+
+#linkbox {
+
+	a:link {color: black;}; 
+	a:visited {color: yellow;}; 
+	a:hover {color: black;}; 
+	a:active {color: yellow;};
+}
+
+#sideboxright {
+	font: 80% "Trebuchet MS", sans-serif; color: black; 
+	width: 830px;
+	height: 50px;
+	margin: 0px auto 0;
+	background: #fff;
+	border: solid 1px #ccc;
+	padding: 20px;
+        filter:alpha(opacity=50);
+        -moz-opacity:0.5;
+        -khtml-opacity: 0.5;
+	opacity: .8;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px; /* future proofing */
+	-khtml-border-radius: 10px; /* for old Konqueror browsers */
+	float: right;	
+}
+
+#sideboxleft {
+	font: 80% "Trebuchet MS", sans-serif; color: black; 
+	width: 830px;
+	height: 70px;
+	margin: 20px auto 0;
+	background: #fff;
+	border: solid 1px #ccc;
+	padding: 20px;
+        filter:alpha(opacity=50);
+        -moz-opacity:0.5;
+        -khtml-opacity: 0.5;
+	opacity: .8;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px; /* future proofing */
+	-khtml-border-radius: 10px; /* for old Konqueror browsers */
+	float: left;	
+}
+
+#boxfoot {
+	font: 100% "Trebuchet MS", sans-serif;
+	width: 210px;
+	height: 70px;
+	margin: 20px auto 0;
+	background: #000;
+	border: solid 1px #ccc;
+	padding: 20px;
+        filter:alpha(opacity=50);
+        -moz-opacity:0.5;
+        -khtml-opacity: 0.5;
+	opacity: .8;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px; /* future proofing */
+	-khtml-bord;r-radius: 10px; /* for old Konqueror browsers */
+	float: right;
+}
+
+</style>
+
+                <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+                <script type="text/javascript" src="detectmobilebrowser.js"></script>
+                <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.7/jquery-ui.min.js"></script>
+</head>
+<body>
+
+	<div id="boxhead">
+		<div style="position: relative; float: left">
+			<img src="images/cougarTrans_sm2.png">
+			<h2>Chesapeake High School Music Department</h2> 
+		</div>
+		<div id="linkbox" style="position: relative; float: right"
+			<a href="http://www.chesapeakemusic.org"><h3>Home</h3></a>
+			<a href="http://www.chesapeakemusic.org/calendar.htm"><h3>Calendar</h3></a>		
+			<a href="http://www.chesapeakemusic.org/media.htm"><h3>Media</h3></a>		
+		</div>
+	</div>
+<div id="bigbox">
+    
+    <div id="wrapper" class="clearfix">
+        <div id="twocols">
+            
+            <div id="centerbox"> 
+		
+	development site for chesapeakemusic.org...coming soon
+
+            </div>
+            
+            <div id="boxright">
+            <script src="http://widgets.twimg.com/j/2/widget.js"></script>
+            <script>
+            new TWTR.Widget({
+            version: 2,
+            type: 'search',
+            search: 'marching band',
+            interval: 6000,
+            title: 'the latest from twitter',
+            subject: 'on marching band',
+            width: 210,
+            height: 400,
+            theme: {
+            shell: {
+            background: '#0a0c0d',
+            color: '#256a99'
+            },
+            tweets: {
+            background: '#a3c1cf',
+            color: '#444444',
+            links: '#662718'
+                }
+            },
+            features: {
+            scrollbar: false,
+            loop: true,
+            live: true,
+            hashtags: true,
+            timestamp: true,
+            avatars: true,
+            toptweets: true,
+            behavior: 'default'
+            }
+            }).render().start();
+            </script>
+            </div>
+        </div>
+    
+        <div id="boxleft">
+		
+	<div style="width: 150px; height: 340px;">
+	content pane...calendar?  headlines?
+	</div>
+
+	<div style="width: 150px; position: absolute; left: 50px">Many thanks to our featured sponsor for donating our web space and domain registration:<br><br><a href="http://www.jasonsmusiccenter.com"><img src="images/Jasons.png"></a></div>
+
+        </div>
+    </div>
+
+	<div id="sideboxleft">
+	</div>
+
+	<div id="boxfoot">
+
+	<center>
+		<iframe src="http://www.facebook.com/plugins/like.php?href=littleboxes.com&amp;layout=button_count&amp;show_faces=false&amp;width=80&amp;action=like&amp;font=trebuchet+ms&amp;colorscheme=dark&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:80px; height:21px;" allowTransparency="true"></iframe>
+
+<a href="http://twitter.com/littleboxescom"><img src="http://www.twitterbuttons.com/upload/badges/b7da144232twitterbutton-0110.gif" title="By: TwitterButtons.com" alt="By: TwitterButtons.com" border=0/></a>
+	</center>
+	</div>
+
+</div>
+
+</body>
+</html>
